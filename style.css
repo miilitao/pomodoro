@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+* {
+  font-family: 'PT Sans', sans-serif;
+  ;
+}
+
+body {
+  background-color: rgb(43, 126, 127);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  color: white;
+}
+div.container-timer {
+  display: flex;
+  justify-content: center;
+}
+div#timer {
+  display: flex;
+  justify-content: center;  
+  font-size: 90px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.148);
+  width: 500px;
+}
+
+section.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+div.input{
+  padding-left: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+input.input-number {
+  border: none;
+  color: rgb(255, 255, 255);
+  width: 60px;
+  height: 30px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: rgba(255, 255, 255, 0.437);
+  font-size: 20px;
+
+}
+
+div.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+button#btn-start {
+  font-size: 20px;
+  height: 50px;
+  width: 160px;
+  background-color: rgb(255, 255, 255);
+  color:rgb(33, 94, 95);
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+}
